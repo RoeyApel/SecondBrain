@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Coding Standards/SKILL.md",
+                "file": "Skills/Session Summary/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -188,8 +188,11 @@
   },
   "active": "2cb36256091aac54",
   "lastOpenFiles": [
-    "Coding Standards/TypeScript.md",
     "Skills/Coding Standards/SKILL.md",
+    "Skills/Session Summary/SKILL.md",
+    "Skills/Session Summary",
+    "Sessions",
+    "Coding Standards/TypeScript.md",
     "Skills/Coding Standards",
     "Skills",
     "CLAUDE.md",
