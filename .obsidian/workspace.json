@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "Coding Standards/TypeScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "TypeScript"
             }
           }
         ]
@@ -186,19 +186,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e508e55f8b7c04f",
+  "active": "2cb36256091aac54",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "Coding Standards/Android.md",
+    "Coding Standards/Compose.md.tmp.35880.254664d51373",
+    "Coding Standards/Java.md.tmp.35880.ad14cf304b12",
     "Coding Standards/PostgreSQL.md",
     "Coding Standards/Java.md",
     "Coding Standards/TypeScript.md",
     "Coding Standards/React.md",
     "Coding Standards/Compose.md",
-    "Coding Standards/Android.md",
     "Coding Standards/Kotlin.md",
     "Coding Standards/General.md",
     "Coding Standards",
     "Untitled.md",
-    "CLAUDE.md",
     "test.md",
     "Clippings/Obsidian's New Web Clipper - You'll Want to Try It.md",
     "Clippings",
