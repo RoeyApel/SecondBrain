@@ -182,12 +182,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cb36256091aac54",
+  "active": "6e508e55f8b7c04f",
   "lastOpenFiles": [
+    "Clippings/Obsidian Web Clipper for Google Chrome.md",
     "test.md",
+    "Clippings",
     "README.md"
   ]
 }
