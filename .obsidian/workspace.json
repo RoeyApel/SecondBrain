@@ -11,10 +11,14 @@
             "id": "459dbec06abc504e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Example Project/General info.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "General info"
             }
           }
         ]
@@ -182,8 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "459dbec06abc504e",
+  "active": "6e508e55f8b7c04f",
   "lastOpenFiles": [
+    "Projects/Example Project/Sessions",
+    "Projects/Example Project",
     "Skills/Full Stack/vercel-react-best-practices/rules/client-event-listeners.md",
     "Skills/Full Stack",
     "Skills/General",
@@ -213,12 +219,10 @@
     "Skills/Full Stack/vercel-react-best-practices/rules/server-cache-react.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-cache-lru.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-auth-actions.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-after-nonblocking.md",
     "Skills/Full Stack/vercel-react-best-practices/rules",
     "Skills/Full Stack/vercel-react-best-practices/metadata.json",
     "Skills/Full Stack/vercel-react-best-practices",
     "Skills/Android/android-testing",
-    "Skills/Android/android-presentation-mvi",
-    "Skills/Android/android-module-structure"
+    "Skills/Android/android-presentation-mvi"
   ]
 }
