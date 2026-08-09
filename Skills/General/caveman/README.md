@@ -44,5 +44,5 @@ Caveman (ultra):
 
 ## See also
 
-- [`SKILL.md`](./SKILL.md) — full LLM-facing instructions
-- [Caveman README](../../README.md) — repo overview, install, benchmarks
+- [`SKILL.md`](Skills/General/caveman/SKILL.md) — full LLM-facing instructions
+- [Caveman README](Skills/General/caveman/README.md) — repo overview, install, benchmarks
