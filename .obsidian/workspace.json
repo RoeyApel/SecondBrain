@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/android-data-layer/SKILL.md",
+                "file": "Skills/android-presentation-mvi/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -188,12 +188,12 @@
   },
   "active": "2cb36256091aac54",
   "lastOpenFiles": [
-    "Skills/android-compose-ui/SKILL.md",
+    "Skills/android-testing/SKILL.md",
     "Skills/android-data-layer/SKILL.md",
+    "Skills/android-compose-ui/SKILL.md",
     "Skills/android-di-koin/SKILL.md",
     "Skills/android-module-structure/SKILL.md",
     "Skills/coding-standards/SKILL.md",
-    "Skills/android-testing/SKILL.md",
     "Skills/android-navigation/SKILL.md",
     "Projects/test test.md",
     "Skills/android-testing",
