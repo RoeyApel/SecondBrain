@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/General/caveman/SKILL.md",
+                "file": "Skills/Android/android-presentation-mvi/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -182,11 +182,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "459dbec06abc504e",
+  "active": "6e508e55f8b7c04f",
   "lastOpenFiles": [
+    "Skills/Android.zip",
+    "Skills/Android/android-compose-ui/SKILL.md",
+    "Skills/Android/android-navigation/SKILL.md",
+    "Skills/Android/android-di-koin/SKILL.md",
+    "Skills/Android/android-data-layer/SKILL.md",
+    "Skills/General/caveman/SKILL.md",
     "Skills/General/session-summary/SKILL.md",
     "Projects/Example Project/Sessions/Example Session.md",
     "Maybe/Skills",
@@ -198,7 +205,6 @@
     "Skills/Full Stack",
     "Skills/General",
     "Skills/Android",
-    "Skills/General/caveman/SKILL.md",
     "Skills/General/caveman/README.md",
     "Skills/General/caveman",
     "Skills/Full Stack/vercel-react-best-practices/rules/bundle-preload.md",
@@ -214,13 +220,8 @@
     "Skills/Full Stack/vercel-react-best-practices/rules/async-dependencies.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/_template.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/_sections.md",
-    "Skills/Android/android-navigation/SKILL.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-serialization.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-parallel-nested-fetching.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-parallel-fetching.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-no-shared-module-state.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-hoist-static-io.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-cache-react.md",
     "Skills/Full Stack/vercel-react-best-practices/rules",
     "Skills/Full Stack/vercel-react-best-practices/metadata.json"
   ]
