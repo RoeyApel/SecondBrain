@@ -166,12 +166,23 @@
               "icon": "lucide-list",
               "title": "Outline of test"
             }
+          },
+          {
+            "id": "20b83ea35b017aba",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
