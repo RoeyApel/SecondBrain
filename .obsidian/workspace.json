@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Android/android-presentation-mvi/SKILL.md",
+                "file": "Skills/Android/android-navigation/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -186,12 +186,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e508e55f8b7c04f",
+  "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Skills/Android/android-di-koin/SKILL.md",
+    "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android.zip",
     "Skills/Android/android-compose-ui/SKILL.md",
     "Skills/Android/android-navigation/SKILL.md",
-    "Skills/Android/android-di-koin/SKILL.md",
     "Skills/Android/android-data-layer/SKILL.md",
     "Skills/General/caveman/SKILL.md",
     "Skills/General/session-summary/SKILL.md",
@@ -222,7 +223,6 @@
     "Skills/Full Stack/vercel-react-best-practices/rules/_sections.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-serialization.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-parallel-nested-fetching.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules",
-    "Skills/Full Stack/vercel-react-best-practices/metadata.json"
+    "Skills/Full Stack/vercel-react-best-practices/rules"
   ]
 }
