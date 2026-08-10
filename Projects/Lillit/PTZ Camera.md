@@ -13,7 +13,15 @@
    - Username: admin@jupiter.com
    - Password: admin
    - Server password: `postgres`
+1bdc1b62-da88-4621-806d-182771df9bfd
 
+a87edfca-1651-4c2d-92dc-1f60ecdd7645
+
+{
+    "missionId": "M-8899-TEST",
+    "userId": "1bdc1b62-da88-4621-806d-182771df9bfd",
+    "cameraId": "a87edfca-1651-4c2d-92dc-1f60ecdd7645"
+  }
 ![[Pasted image 20260810120350.png]]
 ![[Pasted image 20260810133633.png]]
 ![[Pasted image 20260810133848.png]]
