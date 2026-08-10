@@ -11,6 +11,54 @@
             "id": "1b75a59bf855cec9",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Example Project/attachment/Pasted image 20260810120350.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810120350"
+            }
+          },
+          {
+            "id": "9804081551421665",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Example Project/attachment/Pasted image 20260810120350.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810120350"
+            }
+          },
+          {
+            "id": "746a8b81cd891af5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Example Project/attachment/Pasted image 20260810133848.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810133848"
+            }
+          },
+          {
+            "id": "2602b0e6cd0b7848",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Example Project/attachment/Pasted image 20260810133848.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810133848"
+            }
+          },
+          {
+            "id": "d663c499b2b1f6f2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Projects/Example Project/PTZ Camera.md",
@@ -21,7 +69,8 @@
               "title": "PTZ Camera"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -197,12 +246,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b75a59bf855cec9",
+  "active": "d663c499b2b1f6f2",
   "lastOpenFiles": [
-    "Pasted image 20260810120350.png",
     "Projects/Example Project/General info.md",
     "Projects/Example Project/PTZ Camera.md",
     "Projects/Example Project/Sessions/Example Session.md",
+    "Projects/Example Project/attachment/Pasted image 20260810133633.png",
+    "Projects/Example Project/attachment/Pasted image 20260810133848.png",
+    "Projects/Example Project/attachment/Pasted image 20260810120350.png",
+    "Projects/Example Project/attachment",
     "Skills/Android/android-compose-ui/SKILL.md",
     "Notes/Untitled.md",
     "Skills/Android/android-di-koin/SKILL.md",
@@ -223,7 +275,6 @@
     "Skills/General",
     "Skills/Android",
     "Skills/General/caveman/README.md",
-    "Skills/General/caveman",
     "Skills/Full Stack/vercel-react-best-practices/rules/bundle-preload.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md",
