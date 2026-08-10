@@ -1,4 +1,6 @@
 Connection
-1. sadp
+1. go to sadp
 2. connect to router
-![[Pasted image 20260810120350.png]]3. 
+3. admin password: Maccabi14
+4. 
+![[Pasted image 20260810120350.png]]
