@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Android/android-navigation/SKILL.md",
+                "file": "Skills/Android/android-di-koin/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -199,12 +199,13 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Skills/Android/android-data-layer/SKILL.md",
+    "Skills/Android/android-compose-ui/SKILL.md",
+    "Skills/Android/android-error-handling/SKILL.md",
+    "Skills/Android/android-navigation/SKILL.md",
     "Skills/Android/android-di-koin/SKILL.md",
     "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android.zip",
-    "Skills/Android/android-compose-ui/SKILL.md",
-    "Skills/Android/android-navigation/SKILL.md",
-    "Skills/Android/android-data-layer/SKILL.md",
     "Skills/General/caveman/SKILL.md",
     "Skills/General/session-summary/SKILL.md",
     "Projects/Example Project/Sessions/Example Session.md",
@@ -233,7 +234,6 @@
     "Skills/Full Stack/vercel-react-best-practices/rules/_template.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/_sections.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-serialization.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-parallel-nested-fetching.md",
     "Skills/Full Stack/vercel-react-best-practices/rules"
   ]
 }
