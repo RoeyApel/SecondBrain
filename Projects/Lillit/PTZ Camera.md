@@ -9,9 +9,9 @@
 5. Make sure ONVIF is enabled, and verify the admin user is created with the credentials above.
 6. In `https://localhost/management`, add the camera using the config shown in the three images below (IP always from SADP).
 7. Tilt services needed: `frontend_local` (`-rotem`, or regular if Yanai), `backend_local`, `device-manager-service_local`, `video-server`.
-8. pgAdmin:
-   - Username: `admin@jupiter.com`
-   - Password: `admin`
+8. pgAdmin https:localhost/pgadmin:
+   - Username: admin@jupiter.com
+   - Password: admin
    - Server password: `postgres`
 
 ![[Pasted image 20260810120350.png]]
