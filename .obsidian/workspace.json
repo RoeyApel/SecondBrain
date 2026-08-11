@@ -4,24 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "a278a7a15114dcfc",
+        "id": "f7d239ac5cfc5f1b",
         "type": "tabs",
         "children": [
           {
-            "id": "459dbec06abc504e",
+            "id": "1b75a59bf855cec9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Lillit/attachments/Pasted image 20260810120350.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810120350"
+            }
+          },
+          {
+            "id": "9804081551421665",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Lillit/attachments/Pasted image 20260810120350.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810120350"
+            }
+          },
+          {
+            "id": "746a8b81cd891af5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Lillit/attachments/Pasted image 20260810133848.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810133848"
+            }
+          },
+          {
+            "id": "2602b0e6cd0b7848",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projects/Lillit/attachments/Pasted image 20260810133848.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260810133848"
+            }
+          },
+          {
+            "id": "d663c499b2b1f6f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/General/caveman/SKILL.md",
+                "file": "Projects/Lillit/PTZ Camera.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "PTZ Camera"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,12 +215,23 @@
               "icon": "lucide-list",
               "title": "Outline of test"
             }
+          },
+          {
+            "id": "20b83ea35b017aba",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -186,30 +246,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "459dbec06abc504e",
+  "active": "d663c499b2b1f6f2",
   "lastOpenFiles": [
-    "Skills/Android.zip",
-    "Projects/Lillit/attachments/Pasted image 20260810133848.png",
-    "Projects/Lillit/Sessions/Example Session.md",
-    "Projects/Lillit/attachments/Pasted image 20260810133633.png",
-    "Projects/Lillit/attachments/Pasted image 20260810120350.png",
-    "Projects/Lillit/Sessions",
+    "Projects/Lillit/Temperary.md",
     "Projects/Lillit/PTZ Camera.md",
     "Projects/Lillit/General info.md",
+    "Projects/Lillit/Database Stuff.md",
+    "Projects/Example Project/PTZ Camera.md.tmp.15292.14e7926fde4d",
+    "Projects/Lillit/Sessions/Example Session.md",
+    "Projects/Lillit/attachments/Pasted image 20260810133633.png",
+    "Projects/Lillit/attachments/Pasted image 20260810133848.png",
+    "Projects/Lillit/attachments/Pasted image 20260810120350.png",
     "Projects/Lillit/attachments",
-    "Projects/Lillit",
+    "Skills/Android/android-compose-ui/SKILL.md",
+    "Notes/Untitled.md",
+    "Skills/Android/android-di-koin/SKILL.md",
+    "Notes",
+    "Skills/Android/android-data-layer/SKILL.md",
+    "Skills/Android/android-error-handling/SKILL.md",
+    "Skills/Android/android-navigation/SKILL.md",
+    "Skills/Android/android-presentation-mvi/SKILL.md",
+    "Skills/Android.zip",
+    "Skills/General/caveman/SKILL.md",
     "Skills/General/session-summary/SKILL.md",
-    "Projects/Example Project/Sessions/Example Session.md",
     "Maybe/Skills",
     "Maybe",
-    "Projects/Example Project/General info.md",
-    "Projects/Example Project/Sessions",
-    "Projects/Example Project",
+    "Projects/Lillit/Sessions",
+    "Projects/Lillit",
     "Skills/Full Stack/vercel-react-best-practices/rules/client-event-listeners.md",
     "Skills/Full Stack",
     "Skills/General",
-    "Skills/Android",
-    "Skills/General/caveman/SKILL.md",
     "Skills/General/caveman/README.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/bundle-preload.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
@@ -220,12 +286,6 @@
     "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
     "CLAUDE.md",
     "Skills/Full Stack/vercel-react-best-practices/README.md",
-    "Skills/Full Stack/vercel-react-best-practices/AGENTS.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/async-dependencies.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/_template.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/_sections.md",
-    "Skills/Android/android-navigation/SKILL.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-serialization.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-parallel-nested-fetching.md"
+    "Skills/Full Stack/vercel-react-best-practices/AGENTS.md"
   ]
 }
