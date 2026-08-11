@@ -4,73 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "f7d239ac5cfc5f1b",
+        "id": "a278a7a15114dcfc",
         "type": "tabs",
         "children": [
           {
-            "id": "1b75a59bf855cec9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Projects/Lillith/attachments/Pasted image 20260810120350.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260810120350"
-            }
-          },
-          {
-            "id": "9804081551421665",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Projects/Lillith/attachments/Pasted image 20260810120350.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260810120350"
-            }
-          },
-          {
-            "id": "746a8b81cd891af5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Projects/Lillith/attachments/Pasted image 20260810133848.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260810133848"
-            }
-          },
-          {
-            "id": "2602b0e6cd0b7848",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Projects/Lillith/attachments/Pasted image 20260810133848.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260810133848"
-            }
-          },
-          {
-            "id": "d663c499b2b1f6f2",
+            "id": "459dbec06abc504e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Local Presentation Guide.md",
+                "file": "Skills/General/caveman/SKILL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Local Presentation Guide"
+              "title": "SKILL"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,23 +166,12 @@
               "icon": "lucide-list",
               "title": "Outline of test"
             }
-          },
-          {
-            "id": "20b83ea35b017aba",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
@@ -246,38 +186,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d663c499b2b1f6f2",
+  "active": "459dbec06abc504e",
   "lastOpenFiles": [
-    "Projects/Lillith/PTZ Camera Connection Guide.md",
-    "Projects/Lillith/Local Presentation Guide.md",
-    "Projects/Lillith/Pull Request Conventions.md",
+    "Projects/Lillith/attachments/Pasted image 20260810133848.png",
+    "Projects/Lillith/attachments/Pasted image 20260810133633.png",
+    "Projects/Lillith/Sessions/Example Session.md",
+    "Projects/Lillith/attachments/Pasted image 20260810120350.png",
     "Projects/Lillith/Temperary.md",
+    "Projects/Lillith/Pull Request Conventions.md",
+    "Projects/Lillith/PTZ Camera Connection Guide.md",
+    "Projects/Lillith/Sessions",
+    "Projects/Lillith/Local Presentation Guide.md",
     "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/General info.md",
-    "Projects/Example Project/PTZ Camera.md.tmp.15292.14e7926fde4d",
-    "Projects/Lillith/Sessions/Example Session.md",
-    "Projects/Lillith/attachments/Pasted image 20260810133633.png",
-    "Projects/Lillith/attachments/Pasted image 20260810133848.png",
-    "Projects/Lillith/attachments/Pasted image 20260810120350.png",
     "Projects/Lillith/attachments",
-    "Skills/Android/android-compose-ui/SKILL.md",
-    "Notes/Untitled.md",
-    "Skills/Android/android-di-koin/SKILL.md",
-    "Notes",
-    "Skills/Android/android-data-layer/SKILL.md",
-    "Skills/Android/android-error-handling/SKILL.md",
-    "Skills/Android/android-navigation/SKILL.md",
-    "Skills/Android/android-presentation-mvi/SKILL.md",
+    "Projects/Lillith",
     "Skills/Android.zip",
-    "Skills/General/caveman/SKILL.md",
+    "Projects/Lillit/attachments/Pasted image 20260810133848.png",
+    "Projects/Lillit/Sessions/Example Session.md",
+    "Projects/Lillit/attachments/Pasted image 20260810133633.png",
+    "Projects/Lillit/attachments/Pasted image 20260810120350.png",
+    "Projects/Lillit/Sessions",
+    "Projects/Lillit/PTZ Camera.md",
+    "Projects/Lillit/General info.md",
+    "Projects/Lillit/attachments",
+    "Projects/Lillit",
     "Skills/General/session-summary/SKILL.md",
+    "Projects/Example Project/Sessions/Example Session.md",
     "Maybe/Skills",
     "Maybe",
-    "Projects/Lillith/Sessions",
-    "Projects/Lillith",
+    "Projects/Example Project/General info.md",
+    "Projects/Example Project/Sessions",
     "Skills/Full Stack/vercel-react-best-practices/rules/client-event-listeners.md",
-    "Skills/Full Stack",
-    "Skills/General",
+    "Skills/General/caveman/SKILL.md",
     "Skills/General/caveman/README.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/bundle-preload.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
@@ -286,6 +227,7 @@
     "Skills/Full Stack/vercel-react-best-practices/rules/rerender-memo-with-default-value.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/server-dedup-props.md",
     "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
-    "CLAUDE.md"
+    "CLAUDE.md",
+    "Skills/Full Stack/vercel-react-best-practices/README.md"
   ]
 }
