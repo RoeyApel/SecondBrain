@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Untitled.md",
+                "file": "Projects/Lillith/Pull Request Conventions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Pull Request Conventions"
             }
           }
         ],
@@ -249,7 +249,7 @@
   "active": "d663c499b2b1f6f2",
   "lastOpenFiles": [
     "Projects/Lillith/Temperary.md",
-    "Projects/Lillith/Untitled.md",
+    "Projects/Lillith/Pull Request Conventions.md",
     "Projects/Lillith/PTZ Camera.md",
     "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/General info.md",
