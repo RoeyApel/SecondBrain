@@ -1,9 +1,10 @@
 {
     "missionId": "M-8899-TEST",
-    "userId": "1bdc1b62-da88-4621-806d-182771df9bfd",
-    "cameraId": "a87edfca-1651-4c2d-92dc-1f60ecdd7645"
+    "userId": "f443f715-f55e-4975-b733-c1a5573af4a9",
+    "cameraId": "84dd51e0-2538-43e3-82e2-dbdbaadece45"
   }
-
+84dd51e0-2538-43e3-82e2-dbdbaadece45 camera
+f443f715-f55e-4975-b733-c1a5573af4a9 user
 # prev safepass env
 
 --------------------------------------------
