@@ -31,3 +31,8 @@ OPERATOR_LAST_NAME=Operator
 IS_FAKE_VENDOR=false
 
 ------------------------
+    const DEBUG_CAMERA_ID = '84dd51e0-2538-43e3-82e2-dbdbaadece45';
+
+    const DEBUG_ACTIVE_SPOTTER_ID = 'f443f715-f55e-4975-b733-c1a5573af4a9';
+ ------
+ 
