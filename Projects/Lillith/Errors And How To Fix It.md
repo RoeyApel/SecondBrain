@@ -10,4 +10,6 @@
 change camera url to have init the password and the username like that:
 ```
 rtsp://admin:Maccabi14@10.0.10.34/Streaming/Channels/101?transportmode=unicast&profile=Profile_1
+
+rtsp://admin:Maccabi14@10.0.10.34/Streaming/Channels/102?transportmode=unicast&profile=Profile_2
 ```
