@@ -1,7 +1,7 @@
 ### logs in db:
 `filewatch image:in-a-box_db: Windows I/O overflow.` `You may be able to fix this by setting the env var TILT_WATCH_WINDOWS_BUFFER_SIZE.` `Current buffer size: 65536` `More details: [https://github.com/tilt-dev/tilt/issues/3556](https://github.com/tilt-dev/tilt/issues/3556)` `Caused by: short read in readEvents()` `filewatch image:in-a-box_db: Windows I/O overflow.` `You may be able to fix this by setting the env var TILT_WATCH_WINDOWS_BUFFER_SIZE.` `Current buffer size: 65536` `More details: [https://github.com/tilt-dev/tilt/issues/3556](https://github.com/tilt-dev/tilt/issues/3556)` `Caused by: short read in readEvents()` `filewatch image:in-a-box_db: Windows I/O overflow.` `You may be able to fix this by setting the env var TILT_WATCH_WINDOWS_BUFFER_SIZE.` `Current buffer size: 65536` `More details: [https://github.com/tilt-dev/tilt/issues/3556](https://github.com/tilt-dev/tilt/issues/3556)`
 
-### fix: retrigger the db
+### fix: ignore (don't restart the db it will cause issues)
 
 ------
 ###  logs in video service:
