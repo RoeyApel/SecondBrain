@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Errors And How To Fix It.md",
+                "file": "Projects/Lillith/Database Stuff.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Errors And How To Fix It"
+              "title": "Database Stuff"
             }
           }
         ],
@@ -248,8 +248,8 @@
   },
   "active": "d663c499b2b1f6f2",
   "lastOpenFiles": [
-    "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Errors And How To Fix It.md",
+    "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/PTZ Camera Connection Guide.md",
     "Projects/Lillith/Local Presentation Guide.md",
