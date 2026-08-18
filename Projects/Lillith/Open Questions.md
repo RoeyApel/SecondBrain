@@ -4,4 +4,4 @@
 4. where do I get the telemetria, do I send it once every x time or just in the response
 5. stationId is userId and always be userId 
 6. the /command/camera takes isFakeVandor, firstName, lastName what those should be. should they be hardcoded
-7. 
+
