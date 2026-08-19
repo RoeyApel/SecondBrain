@@ -222,8 +222,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -248,16 +248,14 @@
   },
   "active": "d663c499b2b1f6f2",
   "lastOpenFiles": [
+    "Projects/Lillith/General info.md",
     "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Open Questions.md",
-    "CLAUDE.md",
-    "2026-08-18.md",
     "Projects/Lillith/Errors And How To Fix It.md",
-    "Projects/Lillith/PTZ Camera Connection Guide.md",
     "Projects/Lillith/Database Stuff.md",
-    "Projects/Lillith/Local Presentation Guide.md",
+    "Projects/Lillith/PTZ Camera Connection Guide.md",
     "Projects/Lillith/Pull Request Conventions.md",
-    "Projects/Lillith/General info.md",
+    "Projects/Lillith/Local Presentation Guide.md",
     "Projects/Example Project/PTZ Camera.md.tmp.15292.14e7926fde4d",
     "Projects/Lillith/Sessions/Example Session.md",
     "Projects/Lillith/attachments/Pasted image 20260810133633.png",
@@ -286,6 +284,8 @@
     "Skills/Full Stack/vercel-react-best-practices/rules/bundle-preload.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/rerender-memo.md"
+    "Skills/Full Stack/vercel-react-best-practices/rules/rerender-memo.md",
+    "Skills/Full Stack/vercel-react-best-practices/rules/rerender-memo-with-default-value.md",
+    "Skills/Full Stack/vercel-react-best-practices/rules/server-dedup-props.md"
   ]
 }
