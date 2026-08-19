@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Open Questions.md",
+                "file": "Projects/Lillith/Sessions/Example Session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Questions"
+              "title": "Example Session"
             }
           }
         ],
@@ -248,9 +248,9 @@
   },
   "active": "d663c499b2b1f6f2",
   "lastOpenFiles": [
-    "Projects/Lillith/General info.md",
     "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Open Questions.md",
+    "Projects/Lillith/General info.md",
     "Projects/Lillith/Errors And How To Fix It.md",
     "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/PTZ Camera Connection Guide.md",
