@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Temperary.md",
+                "file": "Projects/Lillith/Open Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Temperary"
+              "title": "Open Questions"
             }
           }
         ],
@@ -222,8 +222,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -248,11 +248,15 @@
   },
   "active": "d663c499b2b1f6f2",
   "lastOpenFiles": [
-    "Projects/Lillith/Database Stuff.md",
-    "Projects/Lillith/PTZ Camera Connection Guide.md",
-    "Projects/Lillith/Pull Request Conventions.md",
-    "Projects/Lillith/Local Presentation Guide.md",
     "Projects/Lillith/Temperary.md",
+    "Projects/Lillith/Open Questions.md",
+    "CLAUDE.md",
+    "2026-08-18.md",
+    "Projects/Lillith/Errors And How To Fix It.md",
+    "Projects/Lillith/PTZ Camera Connection Guide.md",
+    "Projects/Lillith/Database Stuff.md",
+    "Projects/Lillith/Local Presentation Guide.md",
+    "Projects/Lillith/Pull Request Conventions.md",
     "Projects/Lillith/General info.md",
     "Projects/Example Project/PTZ Camera.md.tmp.15292.14e7926fde4d",
     "Projects/Lillith/Sessions/Example Session.md",
@@ -282,10 +286,6 @@
     "Skills/Full Stack/vercel-react-best-practices/rules/bundle-preload.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/advanced-effect-event-deps.md",
     "Skills/Full Stack/vercel-react-best-practices/rules/rerender-simple-expression-in-memo.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/rerender-memo.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/rerender-memo-with-default-value.md",
-    "Skills/Full Stack/vercel-react-best-practices/rules/server-dedup-props.md",
-    "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
-    "CLAUDE.md"
+    "Skills/Full Stack/vercel-react-best-practices/rules/rerender-memo.md"
   ]
 }
