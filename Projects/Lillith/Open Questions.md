@@ -14,7 +14,7 @@
     "longitude": "double", // longitude of the mission
     "altitude": "double" // altitude of the mission
   },
-  "operator_conttext": {
+  "operatorContext": {
     "stationID": "UUID", // station id of the application (hsifa tkifa, mars etc...)
     "sensorID": "UUID" // sensor id of the sensor from  black lilit
   },
