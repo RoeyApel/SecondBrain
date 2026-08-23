@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "SKILL"
             }
+          },
+          {
+            "id": "2709b9488112be9b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,11 +195,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "459dbec06abc504e",
+  "active": "2709b9488112be9b",
   "lastOpenFiles": [
     "Projects/Lillith/attachments/Pasted image 20260810133848.png",
     "Projects/Lillith/attachments/Pasted image 20260810133633.png",
