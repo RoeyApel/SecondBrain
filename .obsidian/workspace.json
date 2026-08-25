@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Open Questions"
             }
+          },
+          {
+            "id": "23b530494659b8a7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -186,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "459dbec06abc504e",
+  "active": "23b530494659b8a7",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Projects/Lillith/Temperary.md",
