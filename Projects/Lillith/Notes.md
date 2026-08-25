@@ -1,0 +1,1 @@
+1. db for lillit: hamal, station, users, cameras, cameraConn. 
