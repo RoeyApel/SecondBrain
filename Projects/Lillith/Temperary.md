@@ -101,4 +101,4 @@ IS_FAKE_VENDOR=false
 
     const DEBUG_ACTIVE_SPOTTER_ID = 'f443f715-f55e-4975-b733-c1a5573af4a9';
  ------
- 
+ { "timestamp": "04082026 08:43:08", "sensors": [ { "sensorID": "e4d9b21a-7b3f-4e92-9112-881c039ab101", "sensorType" : "PTZ", "status" : "ACTIVE", "stationID" : "5ad321a-7b3f-4e92-81c03-881c039ab13d" "position": { "laƟtude" : "32.1025", "longitude" : "f34.8580", "alƟtude" : "15.0", "heading" : "180.0" "speed" : "0.0", } - בלמ"ס - עמוד 17 מתוך לילית שחורה בענן הציבורי | גרסה 0.2 אוגוסט 2026 לילית שחורה בענן הציבורי | אפיון טכני "coverage": { "pan_deg": 180.0, "tilt_deg": -10.0, "hfov_deg": 30.0, "maxRange_m": 2000, "footprint": [ {"lat": 32.1050, "lon": 34.8600}, {"lat": 32.1000, "lon": 34.8550}, {"lat": 32.1000, "lon": 34.8650} ] }}
