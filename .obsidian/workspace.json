@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Open Questions.md",
+                "file": "Projects/Lillith/Sessions/Plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Open Questions"
+              "title": "Plan"
             }
           }
         ]
@@ -188,13 +188,14 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Projects/Lillith/Sessions/Session 1.md",
+    "Projects/Lillith/Sessions/Plan.md",
+    "Projects/Lillith/Sessions/Session 2.md",
+    "Projects/Lillith/Open Questions.md",
     "Projects/Lillith/Notes.md",
     "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Problems to solve.md",
-    "Projects/Lillith/Open Questions.md",
     "Projects/Lillith/Database Stuff.md",
-    "Projects/Lillith/Sessions/Session 2.md",
-    "Projects/Lillith/Sessions/Session 1.md",
     "Projects/Lillith/Sessions/Example Session.md",
     "conflict-files-obsidian-git.md",
     "Projects/Lillith/Pull Request Conventions.md",
@@ -226,7 +227,6 @@
     "Projects/Lillit/General info.md",
     "Projects/Lillit/attachments",
     "Projects/Lillit",
-    "Skills/General/session-summary/SKILL.md",
     "Maybe/Skills",
     "Maybe",
     "Projects/Example Project/Sessions"
