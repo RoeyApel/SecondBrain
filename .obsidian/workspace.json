@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Sessions/Plan.md",
+                "file": "Projects/Lillith/Temperary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plan"
+              "title": "Temperary"
             }
           }
         ],
@@ -248,8 +248,8 @@
   },
   "active": "2e2e1661455c3550",
   "lastOpenFiles": [
-    "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Sessions/Plan.md",
+    "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Sessions/Session 1.md",
     "Projects/Lillith/Sessions/saved Session.md",
     "conflict-files-obsidian-git.md",
