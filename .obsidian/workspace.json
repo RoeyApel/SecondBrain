@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Temperary.md",
+                "file": "Projects/Lillith/Notes/Note 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Temperary"
+              "title": "Note 2"
             }
           }
         ],
@@ -248,17 +248,19 @@
   },
   "active": "2e2e1661455c3550",
   "lastOpenFiles": [
+    "Projects/Lillith/Errors And How To Fix It.md",
+    "Projects/Lillith/Problems to solve.md",
     "Projects/Lillith/Sessions/Plan.md",
+    "Projects/Lillith/Notes/Note 2.md",
+    "Projects/Lillith/Notes/Note 1.md",
+    "Projects/Lillith/Notes",
     "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Sessions/Session 1.md",
     "Projects/Lillith/Sessions/saved Session.md",
     "conflict-files-obsidian-git.md",
     "Projects/Lillith/Sessions/Session 2.md",
-    "Projects/Lillith/Problems to solve.md",
-    "Projects/Lillith/Notes.md",
     "Projects/Lillith/Open Questions.md",
     "Projects/Lillith/General info.md",
-    "Projects/Lillith/Errors And How To Fix It.md",
     "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/PTZ Camera Connection Guide.md",
     "Projects/Lillith/Pull Request Conventions.md",
@@ -284,8 +286,6 @@
     "Projects/Lillith/Sessions",
     "Projects/Lillith",
     "Skills/Full Stack/vercel-react-best-practices/rules/client-event-listeners.md",
-    "Skills/Full Stack",
-    "Skills/General",
-    "Skills/General/caveman/README.md"
+    "Skills/Full Stack"
   ]
 }
