@@ -225,23 +225,14 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "c08b0bce2924b3e2",
-            "type": "leaf",
-            "state": {
-              "type": "vault-terminal",
-              "state": {},
-              "icon": "bot",
-              "title": "Claude — SecondBrain"
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 421.5
+    "width": 421.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -256,13 +247,14 @@
       "claude-sidebar:New Claude Code Tab": false
     }
   },
-  "active": "c08b0bce2924b3e2",
+  "active": "2e2e1661455c3550",
   "lastOpenFiles": [
+    "Projects/Lillith/Notes For PM.pdf",
+    "Projects/Lillith/Notes For PM.md",
     "Projects/Lillith/Pull Request Conventions.md",
     "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Notes/Note 2.md",
     "Projects/Lillith/Problems to solve.md",
-    "Projects/Lillith/Notes For PM.md",
     "Projects/Lillith/Notes/Note 1.md",
     "Projects/Lillith/Errors And How To Fix It.md",
     "Projects/Lillith/Sessions/Plan.md",
@@ -291,11 +283,9 @@
     "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android.zip",
     "Skills/General/caveman/SKILL.md",
-    "Skills/General/session-summary/SKILL.md",
     "Maybe/Skills",
     "Maybe",
     "Projects/Lillith/Sessions",
-    "Projects/Lillith",
-    "Skills/Full Stack"
+    "Projects/Lillith"
   ]
 }

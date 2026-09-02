@@ -25,7 +25,7 @@ For cameras is live `pan_deg` can be used for the heading value? For now at leas
 
 ## 3. Footprint data
 
-Can't get footprint data.
+	Can't get footprint data.
 
 ## 4. Sensor type
 
