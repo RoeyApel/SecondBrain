@@ -7,3 +7,4 @@ notes/questions:
 4. sensor type is EVO or PTZ. shouldn't it be camera or drone instead.
 5. Coverage is not available for every camera:
 - Live aim readings only exist for cameras on the older control protocol (`AVIV`, `BARKAN`, `NETZ`, `TZUKIT`) and only while that camera is actively connected. **ONVIF and KELA cameras never report aim data at all**, so they will have no `coverage` object. Is it ok?
+1. maxRange_m value is gotten currently from the geo se 
