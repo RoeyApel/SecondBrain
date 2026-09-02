@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Notes/Note 2.md",
+                "file": "Projects/Lillith/Notes For PM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Note 2"
+              "title": "Notes For PM"
             }
           }
         ],
@@ -248,11 +248,12 @@
   },
   "active": "2e2e1661455c3550",
   "lastOpenFiles": [
+    "Projects/Lillith/Notes/Note 2.md",
+    "Projects/Lillith/Notes/Note 1.md",
+    "Projects/Lillith/Notes For PM.md",
     "Projects/Lillith/Errors And How To Fix It.md",
     "Projects/Lillith/Problems to solve.md",
     "Projects/Lillith/Sessions/Plan.md",
-    "Projects/Lillith/Notes/Note 2.md",
-    "Projects/Lillith/Notes/Note 1.md",
     "Projects/Lillith/Notes",
     "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Sessions/Session 1.md",
@@ -285,7 +286,6 @@
     "Maybe",
     "Projects/Lillith/Sessions",
     "Projects/Lillith",
-    "Skills/Full Stack/vercel-react-best-practices/rules/client-event-listeners.md",
     "Skills/Full Stack"
   ]
 }

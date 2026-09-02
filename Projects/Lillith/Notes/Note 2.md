@@ -1,4 +1,4 @@
-**Data that has no source anywhere in the system today**
+		**Data that has no source anywhere in the system today**
 
 - **`batteryPercentage`** — not tracked for cameras at all (no battery data is stored or read from any camera).
 - **`speed`** — cameras are fixed/mounted, so there's no concept of a camera "moving." This field only makes sense once drones are added.
