@@ -225,14 +225,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "c08b0bce2924b3e2",
+            "type": "leaf",
+            "state": {
+              "type": "vault-terminal",
+              "state": {},
+              "icon": "bot",
+              "title": "Claude — SecondBrain"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 421.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,10 +252,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "claude-sidebar:New Claude Code Tab": false
     }
   },
-  "active": "2e2e1661455c3550",
+  "active": "c08b0bce2924b3e2",
   "lastOpenFiles": [
     "Projects/Lillith/Pull Request Conventions.md",
     "Projects/Lillith/Temperary.md",
