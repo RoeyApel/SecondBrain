@@ -1,3 +1,40 @@
+
+{
+
+  "timestamp": "26082026 10:30:00",
+
+  "missionID": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+
+  "missionType": "Pair",
+
+  "operatorContext": {
+
+    "hamalID": "hamal-1",
+
+    "stationID": "2d978412-1e51-479a-b3d1-711a28af5deb",
+
+    "sensorID": "48315fcd-4a41-48f4-8e9f-aff30f3254a4"
+
+  },
+
+  "position": {
+
+    "latitude": 32.0853,
+
+    "longitude": 34.7818,
+
+    "altitude": 100,
+
+    "heading": 90,
+
+    "speed": 12.5
+
+  }
+
+}
+-------------------------------------
+
+
 camera id: 694bb422-1d9f-494c-901d-bfd4dde473d1 
 super user id: 3d890328-dd50-45b4-8eb9-92aa4d6120fe
 
