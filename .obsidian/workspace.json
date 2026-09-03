@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Notes For PM.md",
+                "file": "Projects/Lillith/Notes For PM 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes For PM"
+              "title": "Notes For PM 2"
             }
           }
         ],
@@ -250,6 +250,7 @@
   "active": "2e2e1661455c3550",
   "lastOpenFiles": [
     "Projects/Lillith/Notes For PM.pdf",
+    "Projects/Lillith/Notes For PM 2.md",
     "Projects/Lillith/Notes For PM.md",
     "Projects/Lillith/Pull Request Conventions.md",
     "Projects/Lillith/Temperary.md",
@@ -282,7 +283,6 @@
     "Skills/Android/android-navigation/SKILL.md",
     "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android.zip",
-    "Skills/General/caveman/SKILL.md",
     "Maybe/Skills",
     "Maybe",
     "Projects/Lillith/Sessions",
