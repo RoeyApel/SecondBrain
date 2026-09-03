@@ -5,7 +5,7 @@
   "missionID": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
   "missionType": "Pair",
   "operatorContext": {
-    "hamalID": "hamal-1",
+	    "hamalID": "hamal-1",
     "stationID": "some-station-id",
     "sensorID": "3fa85f64-5717-4562-b3fc-2c963f66afa7"
   },
