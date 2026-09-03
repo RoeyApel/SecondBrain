@@ -1,4 +1,7 @@
 
+I want to add a request in lillit service: GET/api/v1/pairing/response this is returning : see details in image given. Example Payload (Success) JSON { "timestamp": "04082026 08:43:08", "missionID": "2b8a921a-7b3f-4e92-9534-881c03da282c", "status": "SUCCESS" } Example Payload (Failure) JSON { "timestamp": "04082026 08:43:08", "missionID": "2b8a921a-7b3f-4e92-9534-881c03da282c", "status": "FAIL", "reason": "SENSOR_UNAVAILABLE_OR_UNFIT" } Enum Values: reason SENSOR_UNAVAILABLE_OR_UNFIT: sensor is unavailable or unfit (אי זמינות או כשירות האמצעי) SENSOR_PAIRED_TO_ANOTHER_USER: sensor is paired to another user (אמצעי מצומד למשתמש אחר) ----------------- why is it needed - why another request to get a response for the pairing mission (safepass/missions)?. this is becuase lillit service is going to be comunicating with a server in a one way connection. so the response of the safepass/missions pairing mission would not get to that server autmaticaly, they would need to use this new request. -------------------- I want the code to be best practice, clean, null safe, type safe, don't assume ask questions if you have. think criticaly and ask me good questions.
+
+----------------
 {
 
   "timestamp": "26082026 10:30:00",
