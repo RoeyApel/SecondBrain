@@ -45,3 +45,4 @@ Is it ok?
 `maxRange_m` value is gotten currently from the geo server service.
 
 Is it a problem? Should we get the geo server service as part of lillit just for that value?
+
