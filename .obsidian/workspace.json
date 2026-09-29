@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Notes/Notes - 100-platform-lillith - run.md",
+                "file": "Projects/Lillith/Sessions/Move to sensor proxy plan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes - 100-platform-lillith - run"
+              "title": "Move to sensor proxy plan"
             }
           }
         ]
@@ -189,12 +189,13 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
-    "Projects/Lillith/Temperary.md",
+    "Projects/Lillith/Sessions/Plan.md",
+    "Projects/Lillith/Sessions/Move to sensor proxy plan.md",
     "Projects/Lillith/Notes/Notes - 100-platform-lillith - run.md",
+    "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/PTZ Camera Connection Guide.md",
     "Projects/Lillith/Local Presentation Guide.md",
-    "Projects/Lillith/Sessions/Plan.md",
     "Projects/Lillith/Notes/Notes For PM.pdf",
     "Projects/Lillith/Notes/Notes For PM.md",
     "Projects/Lillith/Notes/Notes For PM 2.md",
@@ -216,7 +217,6 @@
     "Coding Standards/Kotlin.md",
     "Coding Standards/TypeScript.md",
     "Coding Standards/React.md",
-    "Coding Standards/Java.md",
     "Projects/Lillith/attachments/Pasted image 20260810133848.png",
     "Projects/Lillith/attachments/Pasted image 20260810133633.png",
     "Projects/Lillith/attachments/Pasted image 20260810120350.png",
