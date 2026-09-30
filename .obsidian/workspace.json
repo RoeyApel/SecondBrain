@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Guides/Running sensor-proxy with RaaS locally Guide.md",
+                "file": "Projects/Lillith/Sessions/Implement pair mission with raas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Running sensor-proxy with RaaS locally Guide"
+              "title": "Implement pair mission with raas"
             }
           }
         ]
@@ -187,18 +187,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e508e55f8b7c04f",
+  "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Projects/Lillith/Notes/Notes For PM.pdf",
+    "Projects/Lillith/Sessions/Implement pair mission with raas.md",
+    "Projects/Lillith/Guides/Running sensor-proxy with RaaS locally Guide.md",
     "Projects/Lillith/Guides",
     "Projects/Lillith/Sessions/Move to sensor proxy plan.md",
-    "Projects/Lillith/Guides/Running sensor-proxy with RaaS locally Guide.md",
     "Projects/Lillith/Sessions/Plan.md",
     "Projects/Lillith/Notes/Notes - 100-platform-lillith - run.md",
     "Projects/Lillith/Temperary.md",
     "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/PTZ Camera Connection Guide.md",
     "Projects/Lillith/Guides/Local Presentation Guide.md",
-    "Projects/Lillith/Notes/Notes For PM.pdf",
     "Projects/Lillith/Notes/Notes For PM.md",
     "Projects/Lillith/Notes/Notes For PM 2.md",
     "Projects/Lillith/Notes/Note 2.md",
@@ -216,7 +217,6 @@
     "Projects/Lillith/Errors And How To Fix It.md",
     "Maybe/Skills/coding-standards/SKILL.md",
     "Coding Standards/PostgreSQL.md",
-    "Coding Standards/Kotlin.md",
     "Projects/Lillith/attachments/Pasted image 20260810133848.png",
     "Projects/Lillith/attachments/Pasted image 20260810133633.png",
     "Projects/Lillith/attachments/Pasted image 20260810120350.png",
@@ -229,7 +229,6 @@
     "Projects/Lillit/attachments/Pasted image 20260810120350.png",
     "Projects/Lillit/Sessions",
     "Projects/Lillit/attachments",
-    "Projects/Lillit",
-    "Maybe/Skills"
+    "Projects/Lillit"
   ]
 }
