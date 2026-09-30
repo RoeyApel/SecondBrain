@@ -1,0 +1,1 @@
+1. sensors in lillith api context is a word that describe all devices like cameras and drones but in sensor proxy sensors are just one type of asset, assets in proxy context are drones, sensers and more 
