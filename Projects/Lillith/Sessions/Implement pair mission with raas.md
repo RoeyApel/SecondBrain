@@ -21,3 +21,5 @@ comments should be only when really needed, the code should be self explanatory 
 ask a lot of question to know exactly what I meant don't assume. I want to make all the non obvious decision.
 
 --------
+## Notes
+1. what should be operator id and operator name that is stored in raas
