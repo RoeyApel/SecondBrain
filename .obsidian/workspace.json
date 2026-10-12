@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Implement pair mission with raas"
             }
+          },
+          {
+            "id": "5862c03be35f0dff",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "claude-sidebar:New Claude Code Tab": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -186,8 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "459dbec06abc504e",
+  "active": "5862c03be35f0dff",
   "lastOpenFiles": [
+    "Sessions/2026-10-12 - Lillith pair mission and asset commands.md",
+    "Sessions",
     "Projects/Lillith/Sessions/Session.md",
     "Projects/Lillith/Sessions/Untitled.md",
     "Projects/Lillith/Sessions/Session 2.md",
@@ -216,7 +232,6 @@
     "Projects/Lillith/Local Presentation Guide.md",
     "Projects/Lillith/General info.md",
     "Projects/Lillith/Errors And How To Fix It.md",
-    "Projects/Lillith/Database Stuff.md",
     "Projects/Lillith/attachments/Pasted image 20260810133848.png",
     "Projects/Lillith/attachments/Pasted image 20260810133633.png",
     "Projects/Lillith/attachments/Pasted image 20260810120350.png",
@@ -228,7 +243,6 @@
     "Projects/Lillit/attachments/Pasted image 20260810133633.png",
     "Projects/Lillit/attachments/Pasted image 20260810120350.png",
     "Projects/Lillit/Sessions",
-    "Projects/Lillit/attachments",
-    "Projects/Lillit"
+    "Projects/Lillit/attachments"
   ]
 }
