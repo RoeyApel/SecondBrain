@@ -12,13 +12,12 @@ pair meaning:
 
 2. after successful acquiring of control, the client (frontend) with the stationId that acquired control on the asset, now can control it.
     
-3. for the client to be able to control the asset you need to implement a api endpoint for all the commands of the asset, the endpoint has a query parameter called command for the command and all the for now just move and zoom.
+3. for the client to be able to control the asset you need to implement a api endpoint for all the commands of the asset, the endpoint has a query parameter called command for the command and all the added fields for the command in the body. for now just implement the commends move and zoom (raas for now doesn't work with ptz cameras so just connect to a simple drone for now and the commands that the drone does not have you will just make a concise TODO comment instead of excuting them.
     
 
-all of the code should be best practice, clean null safe type safe and the standards should be similar to the current project standards when the standards are good.
+all of the code should be best practice, clean null safe type safe and the standards should be similar to the current project standards when the standards are good. 
+comments should be only when really needed, the code should be self explanatory and readable on it's own. 
 
 ask a lot of question to know exactly what I meant don't assume. I want to make all the non obvious decision.
-
-my explanation is a bit of a mess so improve it of course in the actual plan.
 
 --------
