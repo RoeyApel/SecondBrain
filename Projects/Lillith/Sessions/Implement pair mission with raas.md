@@ -24,3 +24,4 @@ ask a lot of question to know exactly what I meant don't assume. I want to make 
 ## Notes
 1. what should be operator id and operator name that is stored in raas
 2. what is going on with lease expiry (claude said it is happening in raas redis and in memory managers)
+3. how unknown errors should be handled   
