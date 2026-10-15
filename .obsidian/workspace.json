@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Lillith/Guides/Running and testing sensor-proxy with Raas sim.md",
+                "file": "Projects/Lillith/Sessions/15.10.26 - bridge vs forwarder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Running and testing sensor-proxy with Raas sim"
+              "title": "15.10.26 - bridge vs forwarder"
             }
           }
         ]
@@ -189,8 +189,9 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
-    "Projects/Lillith/Guides/Running sensor-proxy with RaaS locally Guide.md",
     "Projects/Lillith/Guides/Running and testing sensor-proxy with Raas sim.md",
+    "Projects/Lillith/Sessions/15.10.26 - bridge vs forwarder.md",
+    "Projects/Lillith/Guides/Running sensor-proxy with RaaS locally Guide.md",
     "Projects/Lillith/Sessions/Implement pair mission with raas.md",
     "Projects/Lillith/Sessions/2026-10-12 - Lillith pair mission and asset commands.md",
     "Projects/Lillith/Notes/Notes For PM.pdf",
@@ -200,7 +201,6 @@
     "Projects/Lillith/Notes/Notes - 100-platform-lillith - run.md",
     "Projects/Lillith/Guides/Local Presentation Guide.md",
     "Projects/Lillith/Sessions/Session 2.md",
-    "Projects/Lillith/Sessions/Untitled.md",
     "Projects/Lillith/Sessions/Session 1.md",
     "Projects/Lillith/Sessions/Plan.md",
     "Projects/Lillith/Guides",
