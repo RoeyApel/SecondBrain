@@ -1,12 +1,13 @@
 ---
 name: android-module-structure
-description: Module layout, dependency rules, and Gradle convention plugins for Android and Kotlin Multiplatform (KMP) projects. Use this skill whenever setting up a new Android/KMP project, deciding where a new module should live, asking "how should I structure this", creating a new feature module, adding a core submodule, configuring Gradle convention plugins, working with version catalogs, or making any decision about project-level architecture. Trigger on phrases like "set up the project", "add a module", "create a feature", "how should I structure", "project structure", "convention plugin", "build-logic", or "where does X live".
+description: Module layout, dependency rules, and Gradle convention plugins for Android and Kotlin Multiplatform (KMP) projects. Use this skill whenever setting up a new Android/KMP project, deciding where a new module should live, asking "how should I structure this", creating a new feature module, adding a core submodule, configuring Gradle convention plugins, working with version catalogs, or making any decision about project-level architecture. Trigger on phrases like "set up the project", "add a module", "create a feature", "how should I structure", "project structure", "convention plugin", "build-logic", or "where does X live". See android-adapt-to-codebase before splitting an existing monolith into this module layout.
 ---
  
 # Android / KMP Module Structure
  
 ## Core Philosophy
  
+- If the project is a single-module monolith, see `android-adapt-to-codebase` before splitting it into this module layout as a side effect of an unrelated task.
 - **Feature-layered modularization**: split by feature first, then by layer within each feature.
 - **Clean Architecture layers**: `presentation` → `domain` ← `data`. Domain is innermost and depends on nothing.
 - **Code lives in a feature module unless it is needed by more than one feature** — then it moves to the appropriate `core` submodule.
@@ -69,21 +70,21 @@ Use **version catalogs** (`libs.versions.toml`) for all dependency and version m
  
 ## Key Libraries
  
-| Concern | Library |
-|---|---|
-| DI | Koin |
-| Networking | Ktor Client |
-| Local DB | Room |
-| Preferences | DataStore |
-| Navigation | Compose Navigation (type-safe) |
-| Serialization | KotlinX Serialization (Ktor + Nav routes) |
-| Image loading | Coil |
-| Logging | Kermit |
-| Async | Coroutines + Flow |
-| Background tasks | WorkManager |
-| Secrets | `local.properties` + `BuildConfig` (Android); `BuildKonfig` (KMP) |
-| Testing | JUnit5, Turbine, AssertK, `kotlinx-coroutines-test` |
-| UI testing | `ComposeTestRule` |
+| Concern          | Library                                                           |
+| ---------------- | ----------------------------------------------------------------- |
+| DI               | Koin                                                              |
+| Networking       | Ktor Client                                                       |
+| Local DB         | Room                                                              |
+| Preferences      | DataStore                                                         |
+| Navigation       | Compose Navigation3 (type-safe, NavDisplay/backStack)             |
+| Serialization    | KotlinX Serialization (Ktor + Nav routes)                         |
+| Image loading    | Coil                                                              |
+| Logging          | Kermit                                                            |
+| Async            | Coroutines + Flow                                                 |
+| Background tasks | WorkManager                                                       |
+| Secrets          | `local.properties` + `BuildConfig` (Android); `BuildKonfig` (KMP) |
+| Testing          | JUnit5, Turbine, AssertK, `kotlinx-coroutines-test`               |
+| UI testing       | `ComposeTestRule`                                                 |
  
 ---
  

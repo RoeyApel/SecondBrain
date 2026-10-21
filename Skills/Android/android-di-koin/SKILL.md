@@ -1,53 +1,82 @@
 ---
 name: android-di-koin
-description: |
-  Koin dependency injection setup for Android/KMP - module definitions per layer, ViewModel injection, assembling modules in :app, and koinViewModel() in composables. Use this skill whenever setting up Koin, defining a DI module, providing a repository or ViewModel, injecting a dependency, or wiring modules in the Application class. Trigger on phrases like "set up Koin", "add a Koin module", "inject a dependency", "DI module", "koinViewModel", "provide a ViewModel", "startKoin", or "single/viewModel/factory".
+description: Koin dependency injection setup for Android/KMP using Koin Annotations - @Single/@Factory/@KoinViewModel on classes, @Module + @ComponentScan per layer, assembling modules in :app, and koinViewModel() in composables. Use this skill whenever setting up Koin, defining a DI module, providing a repository or ViewModel, injecting a dependency, or wiring modules in the Application class. Trigger on phrases like "set up Koin", "add a Koin module", "inject a dependency", "DI module", "koinViewModel", "provide a ViewModel", "startKoin", "@Single", "@Factory", "@KoinViewModel", "@ComponentScan", or "Koin Annotations". See android-adapt-to-codebase before introducing Koin into a project that doesn't already use it.
 ---
  
 # Android / KMP Dependency Injection (Koin)
+
+Uses **Koin Annotations** (`koin-annotations` + KSP) — dependencies are declared directly on the class with an annotation, not in a hand-written `module { }` DSL block.
  
 ## Principles
  
-- One Koin module per feature layer — create it only if there are dependencies to provide.
-- Modules are assembled in `:app`, never in feature modules themselves.
+- If this project doesn't already use Koin, see `android-adapt-to-codebase` before introducing it as a side effect of an unrelated task.
+- Declare a dependency by annotating the class itself (`@Single`, `@Factory`, `@KoinViewModel`) — the annotation *is* the binding, no separate DSL entry needed.
+- One `@Module` + `@ComponentScan` class per feature layer — create it only if there are annotated classes in that layer to scan.
+- `@ComponentScan` only scans within the Gradle module/compilation unit it's declared in, so each feature layer still needs its own scanning module.
+- Layer modules are combined in `:app`, never in feature modules themselves.
 - In Compose root composables, always inject ViewModels via `koinViewModel()`.
  
 ---
  
-## Module Definitions
+## Declaring Dependencies
 
-Prefer the constructor-reference overloads (`singleOf`, `viewModelOf`, `factoryOf`) — they are more concise and let Koin resolve parameters automatically. Only fall back to the lambda overloads (`single { ... }`, `viewModel { ... }`, `factory { ... }`) when constructor injection alone is not enough, e.g. when you need to call a factory method, pass a named/qualified dependency, or do post-construction setup.
+Prefer annotating the class directly — it's more concise and Koin resolves constructor parameters automatically. Only fall back to an `@Module` class with a `@Provides` function when you can't put the annotation on the class itself, e.g. you need to call a factory method, the class comes from a third-party library, or you need post-construction setup.
 
-### Data layer module
+### Data layer
 
 ```kotlin
 // feature:notes:data
-val notesDataModule = module {
-    singleOf(::RoomNoteRepository) { bind<NoteRepository>() }
-}
+@Single(binds = [NoteRepository::class])
+class RoomNoteRepository(
+    private val dao: NoteDao
+) : NoteRepository { ... }
 ```
 
-### Presentation layer module
+```kotlin
+// feature:notes:data
+@Module
+@ComponentScan("com.example.notes.data")
+class NotesDataModule
+```
+
+### Presentation layer
 
 ```kotlin
 // feature:notes:presentation
-val notesPresentationModule = module {
-    viewModelOf(::NoteListViewModel)
-    viewModelOf(::NoteDetailViewModel)
-}
+@KoinViewModel
+class NoteListViewModel(
+    private val repository: NoteRepository
+) : ViewModel() { ... }
+
+@KoinViewModel
+class NoteDetailViewModel(
+    private val repository: NoteRepository
+) : ViewModel() { ... }
 ```
 
-### Core data module (example)
+```kotlin
+// feature:notes:presentation
+@Module
+@ComponentScan("com.example.notes.presentation")
+class NotesPresentationModule
+```
+
+### Core data module (example — `@Provides` escape hatch)
 
 ```kotlin
 // core:data
-val coreDataModule = module {
-    // singleOf works when the class has a single injectable constructor
-    singleOf(::SessionPreferences)
+@Single
+class SessionPreferences(...) { ... } // plain constructor injection — annotate the class
 
-    // Lambda overload needed here — calling a factory method, not a constructor
-    single { HttpClientFactory.create(get()) }
-    single { createDataStore(get()) }
+@Module
+@ComponentScan("com.example.core.data")
+class CoreDataModule {
+    // @Provides needed here — calling a factory method, not a constructor
+    @Single
+    fun httpClient(prefs: SessionPreferences): HttpClient = HttpClientFactory.create(prefs)
+
+    @Single
+    fun dataStore(context: Context): DataStore<Preferences> = createDataStore(context)
 }
 ```
  
@@ -55,7 +84,23 @@ val coreDataModule = module {
  
 ## Assembly in `:app`
  
-Register all modules in the `Application` class:
+Combine the per-layer modules into one root module and register it with `startKoin`:
+
+```kotlin
+@Module(
+    includes = [
+        // core
+        CoreDataModule::class,
+        // features
+        NotesDataModule::class,
+        NotesPresentationModule::class,
+        AuthDataModule::class,
+        AuthPresentationModule::class,
+        // ...
+    ]
+)
+class AppModule
+```
  
 ```kotlin
 class App : Application() {
@@ -63,16 +108,7 @@ class App : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@App)
-            modules(
-                // core
-                coreDataModule,
-                // features
-                notesDataModule,
-                notesPresentationModule,
-                authDataModule,
-                authPresentationModule,
-                // ...
-            )
+            modules(AppModule().module) // .module is generated by the KSP processor
         }
     }
 }
@@ -82,7 +118,7 @@ class App : Application() {
  
 ## Injecting in Composables
  
-Always use `koinViewModel()` in Root composables:
+Always use `koinViewModel()` in Root composables — this is unaffected by the switch to annotations:
  
 ```kotlin
 @Composable
@@ -98,13 +134,13 @@ Never pass ViewModels down the composable tree — inject at the Root level only
  
 ## Scoping Rules
 
-| Scope | Preferred form | Fallback form | When to use |
+| Scope | Annotation | Fallback (in an `@Module` class) | When to use |
 |---|---|---|---|
-| Singleton | `singleOf(::Impl) { bind<Interface>() }` | `single { ... }` | One instance for the app lifetime (repositories, HttpClient, DB) |
-| ViewModel | `viewModelOf(::MyViewModel)` | `viewModel { ... }` | ViewModel instances scoped to their lifecycle |
-| Factory | `factoryOf(::Impl)` | `factory { ... }` | New instance on every injection (rare — prefer singleton or ViewModel) |
+| Singleton | `@Single` (`binds = [Interface::class]` to bind to an interface) | `@Provides` + `@Single` on a function | One instance for the app lifetime (repositories, HttpClient, DB) |
+| ViewModel | `@KoinViewModel` | — | ViewModel instances scoped to their lifecycle |
+| Factory | `@Factory` | `@Provides` + `@Factory` on a function | New instance on every injection (rare — prefer singleton or ViewModel) |
 
-Use the `*Of` constructor-reference form by default. Only use the lambda form when you cannot express the binding with a constructor reference (factory methods, named qualifiers, manual setup).
+Annotate the class directly by default. Only use the `@Provides`-function form inside an `@Module` class when you cannot put the annotation on the class itself (factory methods, third-party types, named qualifiers on generated values, manual post-construction setup).
  
 ---
  
@@ -112,14 +148,30 @@ Use the `*Of` constructor-reference form by default. Only use the lambda form wh
  
 | Thing | Convention | Example |
 |---|---|---|
-| Koin module | `<feature><Layer>Module` | `notesDataModule`, `notesPresentationModule` |
+| Layer scanning module | `<Feature><Layer>Module` (class) | `NotesDataModule`, `NotesPresentationModule` |
+| App root module | `AppModule` | `AppModule` |
+
+Prefer `@Named("value")` for a simple string qualifier. For a qualifier used across multiple features, define a custom `@Qualifier`-annotated annotation class instead of repeating string literals.
+ 
+---
+ 
+## Koin Annotations Best Practices
+
+- **KSP is required** — apply the `ksp` plugin and add `koin-annotations` + `koin-ksp-compiler` to any module that declares `@Single`/`@Factory`/`@KoinViewModel`/`@Module` classes.
+- **`@ComponentScan` doesn't cross module boundaries** — it only scans the compilation unit it's declared in. In KMP, put shared annotations in `commonMain` and give each Gradle module (data, presentation, core, etc.) its own scanning `@Module`.
+- **Constructor injection is still the default mental model** — annotations just move the same information onto the class instead of into a lambda. Don't reach for `@Provides` unless there's a genuine factory method, a third-party class you don't own, or conditional construction logic.
+- **Never try to annotate a class you don't own** (e.g. `HttpClient`, a third-party SDK type) — always wrap it with a `@Provides` function inside an `@Module` class instead.
+- **Regenerate on rename** — after adding, removing, or renaming an annotation, the KSP processor must regenerate the `Module` class. A clean/rebuild resolves stale "unresolved reference" errors on the generated `.module` property.
+- **Don't mix DSL and annotations within a layer** — pick annotations as the default; only drop to a manual `module { }` DSL block for cases KSP genuinely can't express (e.g. runtime-conditional bindings), and keep those isolated in their own clearly-named module rather than interleaving with annotated classes.
  
 ---
  
 ## Checklist: Adding DI for a New Feature
  
-- [ ] Define `val <feature>DataModule = module { ... }` in `feature:data`
-- [ ] Define `val <feature>PresentationModule = module { ... }` in `feature:presentation`
-- [ ] Register both modules in `:app`'s `startKoin { modules(...) }`
+- [ ] Annotate each class in `feature:data` with `@Single` (add `binds = [...]` for interface bindings)
+- [ ] Annotate each ViewModel in `feature:presentation` with `@KoinViewModel`
+- [ ] Add `@Module @ComponentScan("<package>") class <Feature>DataModule` in `feature:data`
+- [ ] Add `@Module @ComponentScan("<package>") class <Feature>PresentationModule` in `feature:presentation`
+- [ ] Include both modules in `AppModule`'s `@Module(includes = [...])` in `:app`
+- [ ] Rebuild so KSP regenerates the `Module` class
 - [ ] Use `koinViewModel()` in all Root composables
- 

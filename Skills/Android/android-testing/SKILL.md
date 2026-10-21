@@ -1,12 +1,14 @@
 ---
 name: android-testing
 description: |
-  Testing patterns for Android/KMP - ViewModel unit tests with JUnit5, Turbine, AssertK, UnconfinedTestDispatcher, fake repositories, SavedStateHandle, and Compose UI tests. Use this skill whenever writing or reviewing tests for ViewModels, repositories, use cases, or Compose screens. Trigger on phrases like "write a test", "unit test the ViewModel", "test a repository", "Turbine", "fake repository", "UnconfinedTestDispatcher", "runTest", "ComposeTestRule", or "JUnit5".
+  Testing patterns for Android/KMP - ViewModel unit tests with JUnit5, Turbine, AssertK, UnconfinedTestDispatcher, fake repositories, SavedStateHandle, and Compose UI tests. Use this skill whenever writing or reviewing tests for ViewModels, repositories, use cases, or Compose screens. Trigger on phrases like "write a test", "unit test the ViewModel", "test a repository", "Turbine", "fake repository", "UnconfinedTestDispatcher", "runTest", "ComposeTestRule", or "JUnit5". See android-adapt-to-codebase before swapping an existing test stack for this one.
 ---
  
 # Android / KMP Testing
  
 ## Stack
+
+If the project already uses a different test stack, see `android-adapt-to-codebase` before swapping it as a side effect of an unrelated task.
  
 | Concern | Library |
 |---|---|
@@ -177,7 +179,9 @@ class NoteListRobot(private val composeTestRule: ComposeContentTestRule) {
     }
 
     fun assertEmptyState() = apply {
-        composeTestRule.onNodeWithTag("empty_state").assertIsDisplayed()
+        composeTestRule
+            .onNodeWithTag(buildTestTag(NoteListTestTags.PREFIX, NoteListTestTags.EMPTY_STATE))
+            .assertIsDisplayed()
     }
 }
 ```
@@ -220,6 +224,8 @@ class NoteListScreenTest {
 ```
 
 **When to use:** Apply the robot pattern when a screen has 3+ UI test cases, when multiple tests share the same setup/assertion sequences, or when testing complex multi-step user flows (e.g., fill form → submit → assert result).
+
+Reference the screen's `<Screen>TestTags` object (and the shared `buildTestTag(prefix, tag)` helper) rather than hardcoded tag strings — see the **android-compose-ui** skill's Test Tags section. This keeps tests compiler-checked against renames instead of silently going stale.
  
 ---
  

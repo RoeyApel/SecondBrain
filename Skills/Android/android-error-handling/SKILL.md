@@ -1,7 +1,7 @@
 ---
 name: android-error-handling
 description: |
-  Generic Result wrapper, error types, and extension helpers for Android/KMP - Result<T, E>, DataError, EmptyResult, map, onSuccess, onFailure. Use this skill whenever defining error types, creating a Result wrapper, handling success/failure flows, mapping errors, or working with typed errors anywhere in the app (not just data layer — also validation, auth, domain logic). Trigger on phrases like "Result wrapper", "error handling", "DataError", "onSuccess", "onFailure", "EmptyResult", "map result", "error type", "validation error", or "typed errors".
+  Generic Result wrapper, error types, and extension helpers for Android/KMP - Result<T, E>, DataError, EmptyResult, map, onSuccess, onFailure. Use this skill whenever defining error types, creating a Result wrapper, handling success/failure flows, mapping errors, or working with typed errors anywhere in the app (not just data layer — also validation, auth, domain logic). Trigger on phrases like "Result wrapper", "error handling", "DataError", "onSuccess", "onFailure", "EmptyResult", "map result", "error type", "validation error", or "typed errors". See android-adapt-to-codebase before replacing an existing error-handling approach with this one.
 ---
 
 # Android / KMP Error Handling
@@ -9,6 +9,8 @@ description: |
 ## Result Wrapper (`core:domain`)
 
 A generic, typed Result that works across all layers — data, domain, presentation, validation, anywhere a function can succeed or fail with a typed error.
+
+If existing code already has its own error/result handling (exceptions, a different wrapper), see `android-adapt-to-codebase` before replacing it as a side effect of an unrelated task.
 
 ```kotlin
 interface Error

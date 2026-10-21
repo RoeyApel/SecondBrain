@@ -1,11 +1,13 @@
 ---
 name: android-presentation-mvi
-description: MVI presentation layer for Android/KMP - State, Action, Event, ViewModel, Root/Screen composable split, UI models, UiText error mapping, and process death with SavedStateHandle. Use this skill whenever creating or reviewing a ViewModel, defining screen state, actions, or events, structuring composables, mapping errors to UI strings, or handling process death. Trigger on phrases like "add a ViewModel", "create a screen", "MVI", "state", "action", "event", "screen composable", "UiText", "SavedStateHandle", "ObserveAsEvents", or "UI model".
+description: MVI presentation layer for Android/KMP - State, Action, Event, ViewModel, Root/Screen composable split, UI models, UiText error mapping, and process death with SavedStateHandle. Use this skill whenever creating or reviewing a ViewModel, defining screen state, actions, or events, structuring composables, mapping errors to UI strings, or handling process death. Trigger on phrases like "add a ViewModel", "create a screen", "MVI", "state", "action", "event", "screen composable", "UiText", "SavedStateHandle", "ObserveAsEvents", or "UI model". See android-adapt-to-codebase before restructuring an existing screen/ViewModel to this MVI split.
 ---
  
 # Android / KMP Presentation Layer (MVI)
  
 ## Overview
+
+If an existing screen doesn't already follow this MVI split (e.g. ad-hoc MVVM, LiveData, mutable fields), see `android-adapt-to-codebase` before restructuring it as a side effect of an unrelated task.
  
 Every screen has:
 1. **State** — a single data class holding all UI state fields.
@@ -214,6 +216,15 @@ fun NoteListScreen(
 private fun NoteListScreenPreview() {
     NoteListScreen(state = NoteListState(), onAction = {})
 }
+
+// Test tags for this screen — see the android-compose-ui skill's Test Tags section
+object NoteListTestTags {
+    const val PREFIX = "note_list"
+    const val REFRESH_BUTTON = "refresh_button"
+    fun noteItem(id: String) = "note_item_$id"
+}
+
+fun Modifier.tag(tag: String?): Modifier = testTag(NoteListTestTags.PREFIX, tag)
 ```
  
 ---
@@ -260,6 +271,7 @@ Only save what truly matters after process death — not the entire state.
 | Root composable | `<Screen>Root` | `NoteListRoot` |
 | Screen composable | `<Screen>Screen` | `NoteListScreen` |
 | UI model | `<Model>Ui` | `NoteUi`, `TodoItemUi` |
+| Test tags object | `<Screen>TestTags` | `NoteListTestTags` |
  
 ---
  
@@ -271,3 +283,4 @@ Only save what truly matters after process death — not the entire state.
 - [ ] Create `<Screen>Screen` composable (pure state + onAction, previewable)
 - [ ] Map any domain errors to `UiText` via extension functions
 - [ ] Add `SavedStateHandle` for any form fields that must survive process death
+- [ ] Define `<Screen>TestTags` object and apply tags to interactable elements, list items, and loading/empty/error states (skip plain containers)

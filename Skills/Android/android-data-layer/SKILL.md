@@ -1,10 +1,12 @@
 ---
 name: android-data-layer
 description: |
-  Data layer patterns for Android/KMP - data sources, repositories, DTOs, mappers, Room entities, Ktor HttpClient, safe call helpers, token storage, and offline-first. Use this skill whenever writing or reviewing a data source or repository, creating DTOs or Room entities, writing mappers, setting up the Ktor HttpClient, handling network errors, or implementing token refresh. Trigger on phrases like "create a repository", "create a data source", "add a DAO", "Ktor client", "write a mapper", "DTO", "Room entity", "network call", "token storage", or "offline-first".
+  Data layer patterns for Android/KMP - data sources, repositories, DTOs, mappers, Room entities, Ktor HttpClient, safe call helpers, token storage, and offline-first. Use this skill whenever writing or reviewing a data source or repository, creating DTOs or Room entities, writing mappers, setting up the Ktor HttpClient, handling network errors, or implementing token refresh. Trigger on phrases like "create a repository", "create a data source", "add a DAO", "Ktor client", "write a mapper", "DTO", "Room entity", "network call", "token storage", or "offline-first". See android-adapt-to-codebase before migrating an existing Retrofit-based (or other) data layer to Ktor.
 ---
- 
+
 # Android / KMP Data Layer
+
+If this project already uses Retrofit (or another networking client) instead of Ktor, see `android-adapt-to-codebase` before migrating it as a side effect of an unrelated task.
  
 ## Error Handling
 
@@ -60,7 +62,8 @@ fun Note.toNoteEntity(): NoteEntity = ...
  
 ## Implementations
 
-Name implementations for what makes them unique — never suffix with `Impl`.
+- **Data source** — name for what makes it unique, never suffix with `Impl`. Multiple real backings commonly exist for the same interface (Room vs Ktor vs DataStore vs in-memory), so a descriptive name disambiguates which one you're looking at.
+- **Repository** — default to `<Entity>RepositoryImpl`. A repository's job is coordinating sources, which the interface name already says — there's nothing left to disambiguate when there's one canonical implementation. Only use a descriptive name if a feature genuinely ships more than one non-test repository implementation with different coordination strategies.
 
 ### Data source (single source)
 
@@ -79,7 +82,7 @@ class RoomNoteDataSource(private val dao: NoteDao) : NoteLocalDataSource {
 ### Repository (multiple sources)
 
 ```kotlin
-class OfflineFirstNoteRepository(
+class NoteRepositoryImpl(
     private val localDataSource: NoteLocalDataSource,
     private val remoteDataSource: NoteRemoteDataSource
 ) : NoteRepository {
@@ -91,7 +94,7 @@ class OfflineFirstNoteRepository(
 }
 ```
 
-Use names like `RoomNoteDataSource`, `KtorNoteDataSource`, `OfflineFirstNoteRepository`. The name should tell you what the class wraps or how it behaves.
+Use names like `RoomNoteDataSource`, `KtorNoteDataSource` for data sources — the name should tell you what the class wraps or how it behaves. Use `NoteRepositoryImpl` for the repository, since coordinating those sources is already what the interface says it does.
  
 ---
  
@@ -158,7 +161,7 @@ This pattern is optional — apply it when the project requires offline support.
 | Data source interface | `<Entity><Local/Remote>DataSource` | `NoteLocalDataSource`, `NoteRemoteDataSource` |
 | Data source impl | describe what makes it unique | `RoomNoteDataSource`, `KtorNoteDataSource` |
 | Repository interface | `<Entity>Repository` (multi-source only) | `NoteRepository` |
-| Repository impl | describe what makes it unique | `OfflineFirstNoteRepository` |
+| Repository impl | `<Entity>RepositoryImpl` (descriptive name only if multiple real implementations exist) | `NoteRepositoryImpl` |
 | DTO | `<Model>Dto` | `NoteDto` |
 | Room entity | `<Model>Entity` | `NoteEntity` |
 | Mapper | extension fun on source type | `fun NoteDto.toNote()` |
@@ -172,5 +175,5 @@ This pattern is optional — apply it when the project requires offline support.
 - [ ] Define feature-specific error type(s) in `feature:domain` (implement `Error`) — see **android-error-handling** skill
 - [ ] Define DTOs and Room entities in `feature:data`
 - [ ] Write mappers as extension functions in `feature:data`
-- [ ] Implement data source (single source) or repository (multi-source) in `feature:data`, named for what makes it unique
+- [ ] Implement data source (single source) in `feature:data`, named for what makes it unique, or repository (multi-source) in `feature:data`, named `<Entity>RepositoryImpl`
  
