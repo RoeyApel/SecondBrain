@@ -100,6 +100,8 @@ class NoteListViewModel(
 ---
  
 ## ObserveAsEvents
+
+helper function (`core:presentation`)
  
 ```kotlin
 @Composable
