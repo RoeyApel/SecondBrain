@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Android/android-data-layer/SKILL.md",
+                "file": "Skills/Android/android-presentation-mvi/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -189,13 +189,13 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Skills/Android/android-compose-ui/SKILL.md",
+    "Skills/Android/android-navigation/SKILL.md",
     "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android/android-data-layer/SKILL.md",
     "Skills/Android/android-module-structure/SKILL.md",
-    "Skills/Android/android-navigation/SKILL.md",
     "Skills/Android/android-di-koin/SKILL.md",
     "Skills/Android/android-adapt-to-codebase/SKILL.md",
-    "Skills/Android/android-compose-ui/SKILL.md",
     "Skills/Android/android-error-handling/SKILL.md",
     "Skills/Android/android-testing/SKILL.md",
     "Projects/Lillith/Sessions/2026-10-12 - Lillith pair mission and asset commands.md",
