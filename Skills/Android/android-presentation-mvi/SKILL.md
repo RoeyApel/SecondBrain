@@ -149,6 +149,17 @@ Only inject `CoroutineDispatcher` when:
 sealed interface UiText {
     data class DynamicString(val value: String) : UiText
     class StringResource(val id: Int, val args: Array<Any> = emptyArray()) : UiText
+
+    @Composable
+    fun asString(): String = when (this) {
+        is DynamicString -> value
+        is StringResource -> stringResource(id, *args)
+    }
+
+    fun asString(context: Context): String = when (this) {
+        is DynamicString -> value
+        is StringResource -> context.getString(id, *args)
+    }
 }
 ```
 
