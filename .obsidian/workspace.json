@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Android/android-presentation-mvi/SKILL.md",
+                "file": "Skills/Android/android-compose-ui/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -158,21 +158,33 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test.md",
+                "file": "Skills/Android/android-compose-ui/SKILL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of test"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "8fbf3511276926ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Skills/Android/android-compose-ui/SKILL.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,9 +201,9 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android/android-compose-ui/SKILL.md",
     "Skills/Android/android-navigation/SKILL.md",
-    "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android/android-data-layer/SKILL.md",
     "Skills/Android/android-module-structure/SKILL.md",
     "Skills/Android/android-di-koin/SKILL.md",
