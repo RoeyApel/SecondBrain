@@ -99,6 +99,29 @@ class NoteListViewModel(
  
 ---
  
+## ObserveAsEvents
+ 
+```kotlin
+@Composable
+fun <T> ObserveAsEvents(
+    flow: Flow<T>,
+    onEvent: (T) -> Unit
+) {
+    val lifecycleOwner = LocalLifecycleOwner.current
+    val currentOnEvent by rememberUpdatedState(onEvent)
+ 
+    LaunchedEffect(lifecycleOwner.lifecycle, flow) {
+        lifecycleOwner.repeatOnLifecycle(Lifecycle.State.STARTED) {
+            withContext(Dispatchers.Main.immediate) {
+                flow.collect { currentOnEvent(it) }
+            }
+        }
+    }
+}
+```
+ 
+---
+ 
 ## Coroutine Dispatchers
  
 **Do not inject** unless the class is unit-tested and dispatches to a non-main dispatcher. For ViewModel tests, use `Dispatchers.setMain(UnconfinedTestDispatcher())` in test setup.
