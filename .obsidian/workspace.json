@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Android/android-adapt-to-codebase/SKILL.md",
+                "file": "Skills/Android/android-compose-ui/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skills/Android/android-adapt-to-codebase/SKILL.md",
+                "file": "Skills/Android/android-compose-ui/SKILL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,8 +201,8 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
-    "Skills/Android/android-compose-ui/SKILL.md",
     "Skills/Android/android-adapt-to-codebase/SKILL.md",
+    "Skills/Android/android-compose-ui/SKILL.md",
     "Skills/Android/android-testing/SKILL.md",
     "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android/android-navigation/SKILL.md",
