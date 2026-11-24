@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Android/android-navigation/SKILL.md",
+                "file": "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
                 "mode": "source",
                 "source": false
               },
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skills/Android/android-navigation/SKILL.md",
+                "file": "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -199,11 +199,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e508e55f8b7c04f",
+  "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Skills/Full Stack/vercel-react-best-practices/AGENTS.md",
+    "Skills/Android/android-navigation/SKILL.md",
     "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android/android-compose-ui/SKILL.md",
-    "Skills/Android/android-navigation/SKILL.md",
     "Skills/Android/android-module-structure/SKILL.md",
     "Skills/Android/android-error-handling/SKILL.md",
     "Skills/Android/android-di-koin/SKILL.md",
@@ -229,7 +230,6 @@
     "Projects/Lillith/Notes/Notes For PM 2.md",
     "Projects/Lillith/Notes/Notes - 100-platform-lillith - run.md",
     "Projects/Lillith/Notes/Note 2.md",
-    "Projects/Lillith/Notes/Note 1.md",
     "Projects/Lillith/Notes",
     "Projects/Lillith/Guides",
     "Projects/Lillith/attachments/Pasted image 20260810133848.png",
