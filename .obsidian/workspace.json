@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
+                "file": "Skills/Full Stack/vercel-composition-patterns/rules/state-decouple-implementation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SKILL"
+              "title": "state-decouple-implementation"
             }
           }
         ]
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
+                "file": "Skills/Full Stack/vercel-composition-patterns/rules/state-decouple-implementation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -201,6 +201,25 @@
   },
   "active": "459dbec06abc504e",
   "lastOpenFiles": [
+    "Skills/Full Stack/vercel-composition-patterns/rules/state-context-interface.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/react19-no-forwardref.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/patterns-explicit-variants.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/patterns-children-over-render-props.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/architecture-compound-components.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/architecture-avoid-boolean-props.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/_template.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/state-decouple-implementation.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules/state-lift-state.md",
+    "Skills/Full Stack/vercel-composition-patterns/SKILL.md",
+    "Skills/Full Stack/vercel-composition-patterns/AGENTS.md",
+    "Skills/Full Stack/frontend-patterns/SKILL.md",
+    "Skills/Full Stack/vercel-react-best-practices/SKILL.md",
+    "Skills/Full Stack/frontend-patterns",
+    "Skills/Full Stack/vercel-composition-patterns/rules/_sections.md",
+    "Skills/Full Stack/vercel-composition-patterns/rules",
+    "Skills/Full Stack/vercel-composition-patterns/README.md",
+    "Skills/Full Stack/vercel-composition-patterns/metadata.json",
+    "Skills/Full Stack/vercel-composition-patterns",
     "Skills/Full Stack/vercel-react-best-practices/AGENTS.md",
     "Skills/Android/android-navigation/SKILL.md",
     "Skills/Android/android-presentation-mvi/SKILL.md",
@@ -213,35 +232,16 @@
     "Skills/Android/android-testing/SKILL.md",
     "Projects/Lillith/Sessions/2026-10-12 - Lillith pair mission and asset commands.md",
     "Skills/Android/android-adapt-to-codebase",
-    "Projects/Lillith/Sessions/15.10.26 - bridge vs forwarder.md",
-    "Projects/Lillith/Guides/Running and testing sensor-proxy with Raas sim.md",
-    "Projects/Lillith/Sessions/Session 2.md",
-    "Projects/Lillith/Sessions/Untitled.md",
-    "Projects/Lillith/Sessions/Session 1.md",
-    "Projects/Lillith/Sessions/Plan.md",
-    "Projects/Lillith/Sessions/Move to sensor proxy plan.md",
-    "Projects/Lillith/Sessions/Implement pair mission with raas.md",
     "Sessions",
-    "Projects/Lillith/Sessions/Session.md",
-    "Projects/Lillith/Problems to solve.md",
     "Projects/Lillith/Notes/Notes For PM.pdf",
-    "Projects/Lillith/Notes/Notes For PM.md",
-    "Projects/Lillith/Notes/Notes For PM 4.10.26.md",
-    "Projects/Lillith/Notes/Notes For PM 2.md",
-    "Projects/Lillith/Notes/Notes - 100-platform-lillith - run.md",
-    "Projects/Lillith/Notes/Note 2.md",
     "Projects/Lillith/Notes",
     "Projects/Lillith/Guides",
     "Projects/Lillith/attachments/Pasted image 20260810133848.png",
     "Projects/Lillith/attachments/Pasted image 20260810133633.png",
     "Projects/Lillith/attachments/Pasted image 20260810120350.png",
     "Projects/Lillith/Sessions",
-    "Projects/Lillith/attachments",
-    "Projects/Lillith",
-    "Skills/Android.zip",
     "Projects/Lillit/attachments/Pasted image 20260810133848.png",
     "Projects/Lillit/attachments/Pasted image 20260810133633.png",
-    "Projects/Lillit/attachments/Pasted image 20260810120350.png",
-    "Projects/Lillit/Sessions"
+    "Projects/Lillit/attachments/Pasted image 20260810120350.png"
   ]
 }
