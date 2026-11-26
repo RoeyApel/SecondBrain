@@ -1,0 +1,2 @@
+# Obsidian rewrites this on every layout change; tracking it causes merge conflicts between computers.
+.obsidian/workspace.json
