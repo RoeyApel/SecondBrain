@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "SKILL"
             }
+          },
+          {
+            "id": "84709ffba1b6935b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +171,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Skills/Android/android-navigation/SKILL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,18 +200,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "claude-sidebar:New Claude Code Tab": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "6e508e55f8b7c04f",
+  "active": "84709ffba1b6935b",
   "lastOpenFiles": [
     "Skills/Android/android-presentation-mvi/SKILL.md",
     "Skills/Android/android-compose-ui/SKILL.md",
