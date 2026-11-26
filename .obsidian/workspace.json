@@ -32,9 +32,37 @@
               "icon": "lucide-book-up",
               "title": "Release Notes 1.15.0"
             }
+          },
+          {
+            "id": "76935873d553855f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Skills/Android/Google Skills to Review/adaptive/SKILL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL"
+            }
+          },
+          {
+            "id": "de961a4b6cb7c0da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -171,6 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -206,52 +235,54 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "claude-sidebar:New Claude Code Tab": false
     }
   },
-  "active": "84709ffba1b6935b",
+  "active": "de961a4b6cb7c0da",
   "lastOpenFiles": [
-    "Skills/Android/android-presentation-mvi/SKILL.md",
-    "Skills/Android/android-compose-ui/SKILL.md",
-    "Skills/Android/android-navigation/SKILL.md",
-    "Skills/Android/android-module-structure/SKILL.md",
-    "Skills/Android/android-error-handling/SKILL.md",
-    "Skills/Android/android-di-koin/SKILL.md",
-    "Skills/Android/android-data-layer/SKILL.md",
-    "Skills/Android/android-adapt-to-codebase/SKILL.md",
-    "Skills/Android/android-testing/SKILL.md",
-    "Projects/Lillith/Sessions/2026-10-12 - Lillith pair mission and asset commands.md",
-    "Skills/Android/android-adapt-to-codebase",
-    "Projects/Lillith/Sessions/15.10.26 - bridge vs forwarder.md",
-    "Projects/Lillith/Guides/Running and testing sensor-proxy with Raas sim.md",
-    "Projects/Lillith/Sessions/Session 2.md",
-    "Projects/Lillith/Sessions/Untitled.md",
-    "Projects/Lillith/Sessions/Session 1.md",
-    "Projects/Lillith/Sessions/Plan.md",
-    "Projects/Lillith/Sessions/Move to sensor proxy plan.md",
-    "Projects/Lillith/Sessions/Implement pair mission with raas.md",
-    "Sessions",
-    "Projects/Lillith/Sessions/Session.md",
-    "Projects/Lillith/Problems to solve.md",
-    "Projects/Lillith/Notes/Notes For PM.pdf",
-    "Projects/Lillith/Notes/Notes For PM.md",
-    "Projects/Lillith/Notes/Notes For PM 4.10.26.md",
-    "Projects/Lillith/Notes/Notes For PM 2.md",
-    "Projects/Lillith/Notes/Notes - 100-platform-lillith - run.md",
-    "Projects/Lillith/Notes/Note 2.md",
-    "Projects/Lillith/Notes/Note 1.md",
-    "Projects/Lillith/Notes",
-    "Projects/Lillith/Guides",
+    "Skills/Android/Google Skills to Review/adaptive/SKILL.md",
+    "conflict-files-obsidian-git.md",
+    "Skills/Android/Google Skills to Review/LICENSE.txt",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/check-availability.md",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses/support-different-types.md",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop/xr/jetpack-xr-sdk/request-hardware-permissions.md",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop/xr/jetpack-xr-sdk/access-hardware-projected-context.md",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop/xr/jetpack-xr-sdk/glasses",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop/xr/jetpack-xr-sdk",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop/xr",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android/develop",
+    "Skills/Android/Google Skills to Review/projected-hardware/references/android",
+    "Skills/Android/Google Skills to Review/projected-hardware/references",
+    "Skills/Android/Google Skills to Review/projected-hardware/SKILL.md",
+    "Skills/Android/Google Skills to Review/projected-hardware",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction/inputs.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides/interaction",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/android/design/ui/ai-glasses/guides",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/titlechip-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/titlechip-samples-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/surface-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/stackstate-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/stackitemscope-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/stack-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/projectedcontext-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/liststate-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/material-hct-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/listitem-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/list-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/iconsizes-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/iconbutton-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/icon-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/glimmertheme-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/glimmersansflextypography-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/deptheffectlevels-source.md",
+    "Skills/Android/Google Skills to Review/display-glasses-with-jetpack-compose-glimmer/references/deptheffect-source.md",
     "Projects/Lillith/attachments/Pasted image 20260810133848.png",
     "Projects/Lillith/attachments/Pasted image 20260810133633.png",
     "Projects/Lillith/attachments/Pasted image 20260810120350.png",
-    "Projects/Lillith/Sessions",
-    "Projects/Lillith/attachments",
-    "Projects/Lillith",
-    "Skills/Android.zip",
     "Projects/Lillit/attachments/Pasted image 20260810133848.png",
     "Projects/Lillit/attachments/Pasted image 20260810133633.png",
-    "Projects/Lillit/attachments/Pasted image 20260810120350.png",
-    "Projects/Lillit/Sessions"
+    "Projects/Lillit/attachments/Pasted image 20260810120350.png"
   ]
 }
